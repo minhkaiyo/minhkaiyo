@@ -6,15 +6,15 @@
 
 ***
 
-### 🎓 Về Bản Thân Tớ
-- 🏛️ Tớ đang là sinh viên ngành **Kỹ thuật Điện tử Viễn thông** tại **Đại học Bách Khoa Hà Nội (HUST)**.
+### 🎓 Về Bản Thân Tôi
+- 🏛️ Tôi đang là sinh viên ngành **Kỹ thuật Điện tử Viễn thông** tại **Đại học Bách Khoa Hà Nội (HUST)**.
 - 💻 Đam mê điểm giao thoa giữa phần cứng và phần mềm: **Hệ thống nhúng**, **IoT**, **Thiết kế mạch** và **Lập trình Web**.
-- 🌱 Tớ đang tìm hiểu sâu về **Advanced STM32**, **Thiết kế số (Verilog/FPGA)** và **Next.js**.
+- 🌱 Tôi đang tìm hiểu sâu về **Advanced STM32**, **Thiết kế số (Verilog/FPGA)** và **Next.js**.
 - 🔭 Các dự án nổi bật: **Handheld Game Console**, **IoT Camera System** và **Knowledge OS**.
-- 💬 Cứ thoải mái hỏi tớ về **C/C++**, **STM32**, **KiCad** hay **Web Development** nhé!
-- 📫 Liên hệ với tớ: [minhkaiyo@gmail.com](mailto:minhkaiyo@gmail.com)
+- 💬 Cứ thoải mái hỏi tôi về **C/C++**, **STM32**, **KiCad** hay **Web Development** nhé!
+- 📫 Liên hệ với tôi: [minhkaiyo@gmail.com](mailto:minhkaiyo@gmail.com)
 - 🌐 Xem CV chi tiết tại trang web: **[minhkaiyo-profile-cv.vercel.app](https://minhkaiyo-profile-cv.vercel.app/)**
-- 🧠 Khám phá không gian tri thức mở của tớ: **[Knowledge OS Alpha](https://knowledge-os-alpha.vercel.app/)**
+- 🧠 Khám phá không gian tri thức mở của tôi: **[Knowledge OS Alpha](https://knowledge-os-alpha.vercel.app/)**
 
 ***
 
