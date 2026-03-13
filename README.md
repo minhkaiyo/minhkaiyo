@@ -50,4 +50,8 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=minhkaiyo&label=Profile%20views&color=06B6D4&style=flat" alt="Profile views" />
+  <br><br>
+  <a href="https://www.facebook.com/btieuthuan1607" target="_blank">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+  </a>
 </p>
