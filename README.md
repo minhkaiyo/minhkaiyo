@@ -2,7 +2,7 @@
 
 <!-- Header Animation -->
 <a href="https://github.com/minhkaiyo">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=PHAM+VAN+MINH;FPGA+%26+Embedded+Systems+Engineer;Hardware+Designer+%7C+PCB+%26+SoC;IoT+Architect+%7C+Full-Stack+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=PHAM+VAN+MINH;Hardware+Designer+%7C+PCB+%26+SoC;IoT+Architect+%7C+Full-Stack+Builder" alt="Typing SVG" />
 </a>
 
 <br>
