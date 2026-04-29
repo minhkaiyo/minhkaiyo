@@ -103,6 +103,7 @@ I design and build hardware systems from the ground up — from **custom multi-l
 | 📡 [**FPGA Gigabit Ethernet Camera Streaming**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | Real-time video pipeline: Camera → FPGA → SDRAM → Gigabit Ethernet → PC | `Verilog` `UDP` `RGMII` |
 | 🌐 [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | Full-stack IoT: FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Web Dashboard | `Verilog` `WebSocket` `Firebase` |
 | 💾 [**FPGA SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) | Low-level SPI Master & SD Card init state machine in pure Verilog | `Verilog` `SPI` `FSM` |
+| 🌌 [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) | Immersive digital universe built with 6000+ lines of pure JavaScript logic and HTML5 Canvas | `JS` `Canvas` `Math` |
 | 🖥️ [**Enterprise Management System**](https://github.com/minhkaiyo/Enterprise-Management-System-WPF) | Professional desktop application with MVVM architecture | `C#` `WPF` `XAML` |
 
 ---
