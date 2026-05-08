@@ -164,11 +164,11 @@ const engineer = {
 
 #### 💻 Software & Full-Stack
 
-| | Project | Tech |
-|:--|:--------|:-----|
-| 🧠 | [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) — Futuristic graph-based Knowledge Hub with D3.js physics & Firebase | `React` `D3.js` |
-| ♻️ | [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) — Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards | `Flutter` `Firebase` |
-| 📄 | [**Texify**](https://github.com/minhkaiyo/latex-ai-generator) — AI-powered LaTeX generator with self-healing PDF compiler | `Node.js` `AI` |
+| Project | Tech |
+|:--------|:-----|
+| [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) — Futuristic graph-based Knowledge Hub with D3.js physics & Firebase | `React` `D3.js` |
+| [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) — Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards | `Flutter` `Firebase` |
+| [**Texify**](https://github.com/minhkaiyo/latex-ai-generator) — AI-powered LaTeX generator with self-healing PDF compiler | `Node.js` `AI` |
 
 </td>
 </tr>
@@ -176,10 +176,10 @@ const engineer = {
 
 <div align="center">
 
-| | Bridging Hardware ↔ Software | Tech |
-|:--|:--------|:-----|
-| 🌐 | [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) — End-to-end IoT: FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard | `Verilog` `WebSocket` `Firebase` |
-| 🌌 | [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) — Immersive digital universe with 6000+ lines of pure JS & HTML5 Canvas physics | `JS` `Canvas` `Math` |
+| Bridging Hardware ↔ Software | Tech |
+|:--------|:-----|
+| [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) — End-to-end IoT: FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard | `Verilog` `WebSocket` `Firebase` |
+| [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) — Immersive digital universe with 6000+ lines of pure JS & HTML5 Canvas physics | `JS` `Canvas` `Math` |
 
 </div>
 
