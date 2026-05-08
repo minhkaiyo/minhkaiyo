@@ -170,7 +170,7 @@
 <br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=minhkaiyo&bg_color=0d1117&color=06B6D4&line=06B6D4&point=58a6ff&area_color=06B6D4&area=true&hide_border=true" alt="Activity Graph" width="95%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=minhkaiyo&bg_color=0d1117&color=06B6D4&line=06B6D4&point=58a6ff&area_color=06B6D4&area=true&hide_border=true&disable_animations=true" alt="Activity Graph" width="95%" />
 </div>
 
 ---
