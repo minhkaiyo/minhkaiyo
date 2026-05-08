@@ -16,7 +16,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minh-ph%E1%BA%A1m-v%C4%83n-1a866b382/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:minhkaiyo@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://minhkaiyo-profile-cv.vercel.app/)
-[![Knowledge OS](https://img.shields.io/badge/🧠_Knowledge_OS-06B6D4?style=for-the-badge)](https://github.com/minhkaiyo/knowledge-os)
 
 <br>
 
