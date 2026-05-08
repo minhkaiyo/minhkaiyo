@@ -99,6 +99,7 @@ I design and build hardware systems from the ground up — from **custom multi-l
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
+| 🧠 [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | My personal futuristic "Knowledge Operating System" - A graph-based hub to manage projects, notes, and interactive AI modules | `React` `D3.js` `Firebase` |
 | [**Custom FPGA-MCU System Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) | Self-designed multi-layer high-speed PCB integrating Cyclone IV GX FPGA & STM32H7 MCU with advanced signal integrity | `KiCad` `PCB` `PDN` |
 | 📡 [**FPGA Gigabit Ethernet Camera Streaming**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | Real-time video pipeline: Camera → FPGA → SDRAM → Gigabit Ethernet → PC | `Verilog` `UDP` `RGMII` |
 | 🌐 [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | Full-stack IoT: FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Web Dashboard | `Verilog` `WebSocket` `Firebase` |
