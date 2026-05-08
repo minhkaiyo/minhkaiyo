@@ -35,67 +35,18 @@
 
 ### 🔩 `> cat /sys/hardware/identity.v`
 
-```verilog
-module pham_van_minh_hw (
-    input  wire clk_sys,
-    inout  wire [63:0] data_bus
-);
-
-    // Main Logic: Cyclone IV GX FPGA
-    fpga_core #(
-        .LOGIC_ELEMENTS("150K"),
-        .TRANSCEIVERS("Gigabit")
-    ) EP4CGX150 (
-        .clk(clk_sys),
-        .high_speed_io(data_bus)
-    );
-
-    // Co-Processor: STM32H7 ARM Cortex-M7
-    stm32_mcu #(
-        .CORE("Cortex-M7")
-    ) STM32H7 (
-        .spi_bus(fpga_spi),
-        .i2c_bus(fpga_i2c)
-    );
-
-    /*
-     * Hardware Validation:
-     * [x] Multi-layer PCB Layout
-     * [x] High-Speed Signal Integrity
-     * >> All systems operational. ✔
-     */
-endmodule
-```
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=500&color=06B6D4&background=0D111700&vCenter=true&width=450&height=250&multiline=true&lines=%3E+Initializing+Hardware+Build...;%3E+Loading+Verilog+Modules...;%3E+fpga_core+FPGA(.clk(sys_clk));%3E+stm32_mcu+MCU(.bus(data));%3E+Synthesizing+Logic+Gates...;%3E+Routing+Multi-layer+PCB...;%3E+Checking+Signal+Integrity...+%5BOK%5D;%3E+Checking+PDN+Impedance......+%5BOK%5D;%3E+Status:+HARDWARE_READY" alt="Hardware Typing Animation" />
+</div>
 
 </td>
 <td width="50%" valign="top">
 
 ### 💻 `> ./deploy --full-stack`
 
-```js
-const engineer = {
-  name: "Pham Van Minh",
-  title: "Full-Stack System Builder",
-  education: "HUST - Electronics & Telecom",
-  
-  stack: {
-    firmware: ["C/C++", "FreeRTOS", "Verilog"],
-    frontend: ["React", "Flutter", "Tailwind"],
-    backend:  ["Node.js", "Firebase", "Python"]
-  },
-
-  mission: `Bridging the gap between 
-            bare-metal silicon and 
-            cloud-based applications.`,
-
-  execute: function() {
-    return this.stack.firmware + 
-           this.stack.frontend;
-  }
-};
-
-// >> Status: DEPLOYED 🚀
-```
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=500&color=58a6ff&background=0D111700&vCenter=true&width=450&height=250&multiline=true&lines=%3E+Initializing+Software+Stack...;%3E+Loading+Firmware:+C%2FC%2B%2B,+FreeRTOS;%3E+Loading+Frontend:+React,+Flutter;%3E+Loading+Backend:+Node.js,+Firebase;%3E+Compiling+Cross-platform+App...;%3E+Bridging+Silicon+and+Cloud...;%3E+Establishing+WebSocket+Link...;%3E+Connecting+to+Database...+%5BOK%5D;%3E+Status:+SOFTWARE_ONLINE" alt="Software Typing Animation" />
+</div>
 
 </td>
 </tr>
