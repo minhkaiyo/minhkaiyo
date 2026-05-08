@@ -33,25 +33,38 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🔩 `> cat /sys/hardware/identity`
+### 🔩 `> cat /sys/hardware/identity.v`
 
-```
-┌─────────────────────────────────────────┐
-│         ╔═══════════════╗               │
-│    ─────╢  CYCLONE IV   ╟─────          │
-│    ─────╢   EP4CGX150   ╟─────          │
-│    ─────╢     FPGA      ╟─────          │
-│         ╚═══╤═══╤═══╤═══╝               │
-│             │SPI│I2C│UART               │
-│         ┌───┴───┴───┴───┐               │
-│         │   STM32H7     │               │
-│         │   ARM Cortex  │               │
-│         └───────────────┘               │
-│  [VCC]──┤├──[GND]  R1=10kΩ             │
-│  Signal Integrity ✓  PDN Analysis ✓    │
-└─────────────────────────────────────────┘
-  >> Board designed. Firmware loaded.
-  >> All systems operational. ✔
+```verilog
+module pham_van_minh_hw (
+    input  wire clk_sys,
+    inout  wire [63:0] data_bus
+);
+
+    // Main Logic: Cyclone IV GX FPGA
+    fpga_core #(
+        .LOGIC_ELEMENTS("150K"),
+        .TRANSCEIVERS("Gigabit")
+    ) EP4CGX150 (
+        .clk(clk_sys),
+        .high_speed_io(data_bus)
+    );
+
+    // Co-Processor: STM32H7 ARM Cortex-M7
+    stm32_mcu #(
+        .CORE("Cortex-M7")
+    ) STM32H7 (
+        .spi_bus(fpga_spi),
+        .i2c_bus(fpga_i2c)
+    );
+
+    /*
+     * Hardware Validation:
+     * [x] Multi-layer PCB Layout
+     * [x] High-Speed Signal Integrity
+     * >> All systems operational. ✔
+     */
+endmodule
 ```
 
 </td>
@@ -62,25 +75,26 @@
 ```js
 const engineer = {
   name: "Pham Van Minh",
-  school: "HUST — ET",
-  hardware: [
-    "FPGA (Verilog HDL)",
-    "PCB Design (KiCad)",
-    "Signal Integrity & PDN",
-    "SoC (FPGA + MCU)"
-  ],
-  software: [
-    "C/C++ (STM32, ESP32)",
-    "Dart & Flutter",
-    "Python | OpenCV",
-    "JS | React | Firebase"
-  ],
-  currentFocus: "Building bridges 
-    between silicon and cloud",
-  motto: "Hardware first. Software smart."
+  title: "Full-Stack System Builder",
+  education: "HUST - Electronics & Telecom",
+  
+  stack: {
+    firmware: ["C/C++", "FreeRTOS", "Verilog"],
+    frontend: ["React", "Flutter", "Tailwind"],
+    backend:  ["Node.js", "Firebase", "Python"]
+  },
+
+  mission: `Bridging the gap between 
+            bare-metal silicon and 
+            cloud-based applications.`,
+
+  execute: function() {
+    return this.stack.firmware + 
+           this.stack.frontend;
+  }
 };
 
-// Status: SHIPPING 🚀
+// >> Status: DEPLOYED 🚀
 ```
 
 </td>
