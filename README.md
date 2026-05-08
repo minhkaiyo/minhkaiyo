@@ -1,8 +1,14 @@
 <div align="center">
 
-<!-- Header Animation -->
+<!-- ══════════════════════════════════════════════════════ -->
+<!--                    HEADER SECTION                     -->
+<!-- ══════════════════════════════════════════════════════ -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:06B6D4,100:0d1117&height=220&section=header&text=PHAM%20VAN%20MINH&fontSize=42&fontColor=06B6D4&animation=fadeIn&fontAlignY=35&desc=Hardware%20Architect%20%7C%20FPGA%20Engineer%20%7C%20Full-Stack%20Builder&descSize=16&descColor=58a6ff&descAlignY=55" width="100%" />
+
+<!-- Typing Animation -->
 <a href="https://github.com/minhkaiyo">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=PHAM+VAN+MINH;Hardware+Designer+%7C+PCB+%26+SoC;IoT+Architect+%7C+Full-Stack+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=06B6D4&center=true&vCenter=true&width=600&lines=%E2%9A%A1+Designing+Silicon+%26+Soldering+Logic;%F0%9F%94%A7+From+Gate-Level+to+Cloud-Level;%F0%9F%8C%90+FPGA+%7C+Embedded+%7C+IoT+%7C+Web+%7C+Mobile;%F0%9F%8E%93+HUST+%E2%80%94+Electronics+%26+Telecommunications" alt="Typing SVG" />
 </a>
 
 <br>
@@ -10,129 +16,222 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/minh-ph%E1%BA%A1m-v%C4%83n-1a866b382/)
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:minhkaiyo@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://minhkaiyo-profile-cv.vercel.app/)
+[![Knowledge OS](https://img.shields.io/badge/🧠_Knowledge_OS-06B6D4?style=for-the-badge)](https://github.com/minhkaiyo/knowledge-os)
+
 <br>
-<br>
+
 <a href="https://github.com/minhkaiyo/minhkaiyo/blob/main/docs/cv_pham_van_minh_vi.pdf">
-  <img src="https://img.shields.io/badge/VIEW%20MY%20CV-06B6D4?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="View CV" height="40"/>
+  <img src="https://img.shields.io/badge/📄_DOWNLOAD_MY_CV-06B6D4?style=for-the-badge&logoColor=white" alt="View CV" height="38"/>
 </a>
+
+</div>
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!--              DUAL IDENTITY: PCB × HACKER              -->
+<!-- ══════════════════════════════════════════════════════ -->
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔩 `> cat /sys/hardware/identity`
+
+```
+┌─────────────────────────────────────────┐
+│         ╔═══════════════╗               │
+│    ─────╢  CYCLONE IV   ╟─────          │
+│    ─────╢   EP4CGX150   ╟─────          │
+│    ─────╢     FPGA      ╟─────          │
+│         ╚═══╤═══╤═══╤═══╝               │
+│             │SPI│I2C│UART               │
+│         ┌───┴───┴───┴───┐               │
+│         │   STM32H7     │               │
+│         │   ARM Cortex  │               │
+│         └───────────────┘               │
+│  [VCC]──┤├──[GND]  R1=10kΩ             │
+│  Signal Integrity ✓  PDN Analysis ✓    │
+└─────────────────────────────────────────┘
+  >> Board designed. Firmware loaded.
+  >> All systems operational. ✔
+```
+
+</td>
+<td width="50%" valign="top">
+
+### 💻 `> ./deploy --full-stack`
+
+```js
+const engineer = {
+  name: "Pham Van Minh",
+  school: "HUST — ET",
+  hardware: [
+    "FPGA (Verilog HDL)",
+    "PCB Design (KiCad)",
+    "Signal Integrity & PDN",
+    "SoC (FPGA + MCU)"
+  ],
+  software: [
+    "C/C++ (STM32, ESP32)",
+    "Dart & Flutter",
+    "Python | OpenCV",
+    "JS | React | Firebase"
+  ],
+  currentFocus: "Building bridges 
+    between silicon and cloud",
+  motto: "Hardware first. Software smart."
+};
+
+// Status: SHIPPING 🚀
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!--                    TECH STACK                         -->
+<!-- ══════════════════════════════════════════════════════ -->
+
+<div align="center">
+
+### ⚙️ Tech Arsenal
+
+**`HARDWARE & EDA`**
+
+<img src="https://img.shields.io/badge/Verilog_HDL-121212?style=for-the-badge" alt="Verilog" />
+<img src="https://img.shields.io/badge/Intel_Quartus_II-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="Quartus" />
+<img src="https://img.shields.io/badge/KiCad-314CB6?style=for-the-badge&logo=kicad&logoColor=white" alt="KiCad" />
+<img src="https://img.shields.io/badge/STM32CubeMX-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32" />
+<img src="https://img.shields.io/badge/Proteus-1C1C1C?style=for-the-badge" alt="Proteus" />
+<img src="https://img.shields.io/badge/ANSYS_HFSS-FFB71B?style=for-the-badge&logo=ansys&logoColor=black" alt="HFSS" />
+
+**`LANGUAGES & FRAMEWORKS`**
+
+<img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C/C++" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TS" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white" alt="D3.js" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+
+**`CLOUD & TOOLS`**
+
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
+
+**`TARGET PLATFORMS`**
+
+<img src="https://img.shields.io/badge/Cyclone_IV_GX_(DE2i--150)-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="FPGA" />
+<img src="https://img.shields.io/badge/STM32H7_Cortex--M7-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32H7" />
+<img src="https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
 
 </div>
 
 ---
 
-### `> whoami`
-
-```
-Pham Van Minh
-├── 🎓 B.Eng. Electronics & Telecommunications @ HUST (Hanoi University of Science and Technology)
-├── 🔧 Specialization: FPGA Design | Embedded Systems | High-Speed PCB
-├── 🌐 Secondary: IoT Systems | Web-based Hardware Control
-└── 📍 Hanoi, Vietnam
-```
-
-I design and build hardware systems from the ground up — from **custom multi-layer PCBs** with FPGAs and high-performance MCUs to **real-time data pipelines** running on bare-metal logic. My work lives at the intersection of digital design, embedded firmware, and system-level integration.
-
----
-
-### ⚡ Core Competencies
-
-<table>
-  <tr>
-    <td width="50%">
-
-**🔩 Hardware & Digital Design**
-- FPGA Design (Verilog HDL)
-- High-Speed PCB Layout (KiCad)
-- Signal Integrity & PDN Analysis
-- SoC Integration (FPGA + MCU)
-
-</td>
-    <td width="50%">
-
-**💻 Firmware & Software**
-- Embedded C/C++ (STM32, ESP32)
-- Dart & Flutter (Cross-platform App)
-- Communication Protocols (SPI, UART, I²C, Ethernet)
-- Python (Automation, Data, OpenCV)
-- Web Technologies (JS, Firebase, WebSocket)
-
-</td>
-  </tr>
-</table>
-
----
-
-### 🛠️ Tech Stack
-
-**Hardware & EDA:**
-<p>
-  <img src="https://img.shields.io/badge/Verilog_HDL-121212?style=for-the-badge" alt="Verilog" />
-  <img src="https://img.shields.io/badge/Intel_Quartus_II-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="Quartus" />
-  <img src="https://img.shields.io/badge/KiCad_6-314CB6?style=for-the-badge&logo=kicad&logoColor=white" alt="KiCad" />
-  <img src="https://img.shields.io/badge/STM32CubeMX-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-  <img src="https://img.shields.io/badge/Proteus-1C1C1C?style=for-the-badge" alt="Proteus" />
-</p>
-
-**Languages & Frameworks:**
-<p>
-  <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C/C++" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-</p>
-
-**Target Platforms:**
-<p>
-  <img src="https://img.shields.io/badge/Cyclone_IV_GX_(DE2i--150)-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="FPGA" />
-  <img src="https://img.shields.io/badge/STM32H7-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32H7" />
-  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-</p>
-
----
+<!-- ══════════════════════════════════════════════════════ -->
+<!--                 FEATURED PROJECTS                     -->
+<!-- ══════════════════════════════════════════════════════ -->
 
 ### 🚀 Featured Projects
 
-| Project | Description | Stack |
-|:--------|:------------|:------|
-| 🧠 [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | My personal futuristic "Knowledge Operating System" - A graph-based hub to manage projects, notes, and interactive AI modules | `React` `D3.js` `Firebase` |
-| [**Custom FPGA-MCU System Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) | Self-designed multi-layer high-speed PCB integrating Cyclone IV GX FPGA & STM32H7 MCU with advanced signal integrity | `KiCad` `PCB` `PDN` |
-| 📡 [**FPGA Gigabit Ethernet Camera Streaming**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | Real-time video pipeline: Camera → FPGA → SDRAM → Gigabit Ethernet → PC | `Verilog` `UDP` `RGMII` |
-| 🌐 [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | Full-stack IoT: FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Web Dashboard | `Verilog` `WebSocket` `Firebase` |
-| 💾 [**FPGA SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) | Low-level SPI Master & SD Card init state machine in pure Verilog | `Verilog` `SPI` `FSM` |
-| 🌌 [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) | Immersive digital universe built with 6000+ lines of pure JavaScript logic and HTML5 Canvas | `JS` `Canvas` `Math` |
-| ♻️ [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) | A full-stack "Smart Recycling" ecosystem with real-time radar mapping, AI waste scanning, and Eco-Points rewards | `Flutter` `Firebase` `AI` |
+> *From gate-level Verilog to full-stack cloud apps — each project represents a complete engineering journey.*
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🔩 Hardware & Digital Design
+
+| | Project | Tech |
+|:--|:--------|:-----|
+| 🏗️ | [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) — Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 | `KiCad` `PDN` |
+| 📡 | [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) — Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC | `Verilog` `RGMII` |
+| 💾 | [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) — SPI Master & SD Card init FSM in pure Verilog | `Verilog` `FSM` |
+
+</td>
+<td width="50%" valign="top">
+
+#### 💻 Software & Full-Stack
+
+| | Project | Tech |
+|:--|:--------|:-----|
+| 🧠 | [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) — Futuristic graph-based Knowledge Hub with D3.js physics & Firebase | `React` `D3.js` |
+| ♻️ | [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) — Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards | `Flutter` `Firebase` |
+| 📄 | [**Texify**](https://github.com/minhkaiyo/latex-ai-generator) — AI-powered LaTeX generator with self-healing PDF compiler | `Node.js` `AI` |
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+| | Bridging Hardware ↔ Software | Tech |
+|:--|:--------|:-----|
+| 🌐 | [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) — End-to-end IoT: FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard | `Verilog` `WebSocket` `Firebase` |
+| 🌌 | [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) — Immersive digital universe with 6000+ lines of pure JS & HTML5 Canvas physics | `JS` `Canvas` `Math` |
+
+</div>
 
 ---
+
+<!-- ══════════════════════════════════════════════════════ -->
+<!--                  GITHUB ANALYTICS                     -->
+<!-- ══════════════════════════════════════════════════════ -->
 
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=minhkaiyo&show_icons=true&theme=github_dark&hide_border=true&title_color=06B6D4&icon_color=06B6D4&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=minhkaiyo&show_icons=true&theme=github_dark&hide_border=true&title_color=06B6D4&icon_color=06B6D4&text_color=c9d1d9&bg_color=0d1117&rank_icon=github" alt="GitHub Stats" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhkaiyo&theme=github-dark-blue&hide_border=true&stroke=0000&ring=06B6D4&fire=06B6D4&currStreakLabel=06B6D4&background=0d1117" alt="GitHub Streak" width="48%" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhkaiyo&layout=compact&theme=github_dark&hide_border=true&title_color=06B6D4&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top Languages" width="40%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhkaiyo&layout=compact&theme=github_dark&hide_border=true&title_color=06B6D4&text_color=c9d1d9&bg_color=0d1117&langs_count=10" alt="Top Languages" width="40%" />
+</div>
+
+<br>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=minhkaiyo&bg_color=0d1117&color=06B6D4&line=06B6D4&point=58a6ff&area_color=06B6D4&area=true&hide_border=true" alt="Activity Graph" width="95%" />
 </div>
 
 ---
 
+<!-- ══════════════════════════════════════════════════════ -->
+<!--                      FOOTER                           -->
+<!-- ══════════════════════════════════════════════════════ -->
+
 <div align="center">
 
-  <img src="https://komarev.com/ghpvc/?username=minhkaiyo&label=Profile+Views&color=06B6D4&style=flat-square" alt="Profile views" />
+<img src="https://komarev.com/ghpvc/?username=minhkaiyo&label=Profile+Views&color=06B6D4&style=flat-square" alt="Profile views" />
 
-  <br><br>
+<br><br>
 
-  *"Hardware is the foundation. Software is the intelligence. Together, they build the future."*
+```
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│   "Hardware is the foundation. Software is the intelligence.         │
+│    Together, they build the future."                                 │
+│                                                                      │
+│                                    — Pham Van Minh, HUST '27         │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
+```
 
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:06B6D4,100:0d1117&height=120&section=footer" width="100%" />
