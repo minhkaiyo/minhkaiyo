@@ -220,16 +220,17 @@ const engineer = {
 
 <br><br>
 
-```
-┌──────────────────────────────────────────────────────────────────────┐
-│                                                                      │
-│   "Hardware is the foundation. Software is the intelligence.         │
-│    Together, they build the future."                                 │
-│                                                                      │
-│                                    — Pham Van Minh, HUST '27         │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
-```
+<br>
+
+<h3 align="center">
+  <i>"Hardware is the foundation. Software is the intelligence. <br> Together, they build the future."</i>
+</h3>
+
+<p align="center">
+  <b>— Pham Van Minh, HUST '27 —</b>
+</p>
+
+<br>
 
 </div>
 
