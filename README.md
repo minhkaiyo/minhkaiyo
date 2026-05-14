@@ -133,7 +133,6 @@
 |:--------|:-----|
 | [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) — Futuristic graph-based Knowledge Hub with D3.js physics & Firebase | `React` `D3.js` |
 | [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) — Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards | `Flutter` `Firebase` |
-| [**Texify**](https://github.com/minhkaiyo/latex-ai-generator) — AI-powered LaTeX generator with self-healing PDF compiler | `Node.js` `AI` |
 
 </td>
 </tr>
