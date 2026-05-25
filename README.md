@@ -45,11 +45,11 @@
 
 | Field | Technologies & Tools |
 | :--- | :--- |
-| **🔩 Hardware & EDA** | Verilog HDL • Intel Quartus II • KiCad (High-Speed PCB) • ANSYS HFSS |
-| **💻 Languages** | C/C++ • Python • Dart • C# • JavaScript • TypeScript |
-| **🚀 Frameworks** | React.js • Flutter • Node.js • Three.js • D3.js |
-| **☁️ Infrastructure** | Git • LaTeX • Firebase • Vercel • SQL |
-| **🎯 Target Platforms** | Cyclone IV FPGA • STM32H7 (Cortex-M7) • ESP32-S3 (FreeRTOS) |
+| **🔩 Hardware & EDA** | ![](https://img.shields.io/badge/Verilog_HDL-121212?style=flat-square) ![](https://img.shields.io/badge/Intel_Quartus_II-0071C5?style=flat-square&logo=intel&logoColor=white) ![](https://img.shields.io/badge/KiCad-314CB6?style=flat-square&logo=kicad&logoColor=white) ![](https://img.shields.io/badge/ANSYS_HFSS-FFB71B?style=flat-square&logo=ansys&logoColor=black) |
+| **💻 Languages** | ![](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **🚀 Frameworks** | ![](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white) |
+| **☁️ Infrastructure** | ![](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white) ![](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **🎯 Target Platforms** | ![](https://img.shields.io/badge/Cyclone_IV_GX-0071C5?style=flat-square&logo=intel&logoColor=white) ![](https://img.shields.io/badge/STM32H7-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) ![](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white) |
 
 ---
 
