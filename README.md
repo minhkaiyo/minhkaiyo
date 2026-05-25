@@ -43,17 +43,13 @@
 
 ### ⚙️ Tech Arsenal
 
-```yaml
-# systemctl status tech-stack.service
-● tech-stack.service - Pham Van Minh's Engineering Capabilities
-   Loaded: active (running) since HUST '23
-   
-   Hardware & EDA   :: [Verilog HDL] [Intel Quartus II] [KiCad (High-speed PCB)] [ANSYS HFSS]
-   Languages        :: [C/C++] [Python] [Dart] [C#] [JavaScript] [TypeScript]
-   Frameworks       :: [React.js] [Flutter] [Node.js] [Three.js] [D3.js]
-   Infrastructure   :: [Git] [LaTeX] [Firebase] [Vercel] [SQL]
-   Target Platforms :: [Cyclone IV FPGA] [STM32H7 (Cortex-M7)] [ESP32-S3 (FreeRTOS)]
-```
+| Field | Technologies & Tools |
+| :--- | :--- |
+| **🔩 Hardware & EDA** | Verilog HDL • Intel Quartus II • KiCad (High-Speed PCB) • ANSYS HFSS |
+| **💻 Languages** | C/C++ • Python • Dart • C# • JavaScript • TypeScript |
+| **🚀 Frameworks** | React.js • Flutter • Node.js • Three.js • D3.js |
+| **☁️ Infrastructure** | Git • LaTeX • Firebase • Vercel • SQL |
+| **🎯 Target Platforms** | Cyclone IV FPGA • STM32H7 (Cortex-M7) • ESP32-S3 (FreeRTOS) |
 
 ---
 
