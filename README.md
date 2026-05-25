@@ -61,41 +61,25 @@
 
 > *From gate-level Verilog to full-stack cloud apps — each project represents a complete engineering journey.*
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 #### 🔩 Hardware & Digital Design
-
-| Project | Tech |
-|:--------|:-----|
-| [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) — Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 | `KiCad` `PDN` |
-| [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) — Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC | `Verilog` `RGMII` |
-| [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) — SPI Master & SD Card init FSM in pure Verilog | `Verilog` `FSM` |
-
-</td>
-<td width="50%" valign="top">
+| Project | Key Stack | Description |
+| :--- | :--- | :--- |
+| [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) | `KiCad` `PDN` | Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 |
+| [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | `Verilog` `RGMII` | Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC |
+| [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) | `Verilog` `FSM` | SPI Master & SD Card init FSM in pure Verilog |
 
 #### 💻 Software & Full-Stack
+| Project | Key Stack | Description |
+| :--- | :--- | :--- |
+| [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | `React` `D3.js` | Futuristic graph-based Knowledge Hub with D3.js physics & Firebase |
+| [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) | `Flutter` `Firebase` | Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards |
+| [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) | `Three.js` `WebGL` | Premium interactive 3D ocean simulation with custom shaders & Boids |
 
-| Project | Tech |
-|:--------|:-----|
-| [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) — Futuristic graph-based Knowledge Hub with D3.js physics & Firebase | `React` `D3.js` |
-| [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) — Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards | `Flutter` `Firebase` |
-| [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) — Premium interactive 3D ocean simulation with custom shaders & Boids simulation | `Three.js` `WebGL` |
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-| Bridging Hardware ↔ Software | Tech |
-|:--------|:-----|
-| [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) — End-to-end IoT: FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard | `Verilog` `WebSocket` `Firebase` |
-| [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) — Immersive digital universe with 6000+ lines of pure JS & HTML5 Canvas physics | `JS` `Canvas` `Math` |
-
-</div>
+#### 🔌 Bridging Hardware ↔ Software
+| Project | Key Stack | Description |
+| :--- | :--- | :--- |
+| [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | `Verilog` `WebSocket` `Firebase` | FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard |
+| [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) | `JS` `Canvas` `Math` | Immersive digital universe with 6000+ lines of pure JS & Canvas physics |
 
 ---
 
