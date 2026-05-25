@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <!-- Bo góc cho toàn bộ khung hình -->
+    <clipPath id="rect-clip">
+      <rect x="0" y="0" width="800" height="450" rx="12" ry="12" />
+    </clipPath>
+    <!-- Phủ bóng tối ở cạnh dưới để làm nổi bật Text -->
+    <linearGradient id="text-overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117" stop-opacity="0" />
+      <stop offset="60%" stop-color="#0D1117" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .slide {
+      opacity: 0;
+      animation: carousel 25s infinite ease-in-out;
+    }
+    /* Mỗi slide delay nhau đúng 5 giây */
+    .slide:nth-child(1) { animation-delay: 0s; }
+    .slide:nth-child(2) { animation-delay: 5s; }
+    .slide:nth-child(3) { animation-delay: 10s; }
+    .slide:nth-child(4) { animation-delay: 15s; }
+    .slide:nth-child(5) { animation-delay: 20s; }
+
+    @keyframes carousel {
+      0%, 100% { opacity: 0; }
+      2%, 16% { opacity: 1; }  /* Hiện rõ trong khoảng ~3.5 giây */
+      18%, 98% { opacity: 0; } /* Fade out và ẩn đi */
+    }
+
+    .project-title {
+      font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      fill: #FFFFFF;
+    }
+
+    .project-tech {
+      font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      fill: #06B6D4;
+    }
+  </style>
+
+  <!-- Group chứa tất cả các slides -->
+  <g clip-path="url(#rect-clip)">
+    <!-- SLIDE 1: Ocean Love -->
+    <g class="slide">
+      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ocean_love.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
+      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
+      <text x="30" y="405" class="project-title">🌊 Ocean Love</text>
+      <text x="30" y="425" class="project-tech">Three.js • WebGL Shaders • Boids Simulation</text>
+    </g>
+
+    <!-- SLIDE 2: Love Galaxy -->
+    <g class="slide">
+      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/love_galaxy.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
+      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
+      <text x="30" y="405" class="project-title">🌌 project-love-galaxy</text>
+      <text x="30" y="425" class="project-tech">Pure JS • HTML5 Canvas Physics • Math Engines</text>
+    </g>
+
+    <!-- SLIDE 3: FPGA-ESP32 IoT Hub -->
+    <g class="slide">
+      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/fpga_esp32.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
+      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
+      <text x="30" y="405" class="project-title">🌐 FPGA-ESP32 IoT Hub</text>
+      <text x="30" y="425" class="project-tech">Verilog • SPI Protocol • Firebase • WebSocket Dashboard</text>
+    </g>
+
+    <!-- SLIDE 4: Knowledge OS -->
+    <g class="slide">
+      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/knowledge_os.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
+      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
+      <text x="30" y="405" class="project-title">🧠 Knowledge OS</text>
+      <text x="30" y="425" class="project-tech">React • D3.js Force Layout • Interactive Graph database</text>
+    </g>
+
+    <!-- SLIDE 5: EcoCollect -->
+    <g class="slide">
+      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ecocollect.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
+      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
+      <text x="30" y="405" class="project-title">♻️ EcoCollect</text>
+      <text x="30" y="425" class="project-tech">Flutter • Firebase Services • Smart Recycling Ecosystem</text>
+    </g>
+  </g>
+</svg>
