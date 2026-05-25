@@ -43,13 +43,13 @@
     }
   </style>
 
-  <!-- Track chứa dải băng chuyền ảnh độ phân giải cao -->
+  <!-- Track chứa dải băng chuyền ảnh sử dụng đường dẫn tương đối để tương thích cả offline lẫn online -->
   <g class="marquee-track">
     <!-- ==================== CHU KỲ CHÍNH (5 CARDS HD) ==================== -->
     <!-- Card 1: Ocean Love -->
     <g transform="translate(0, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ocean_love.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="ocean_love.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">🌊 Ocean Love</text>
         <text x="40" y="490" class="project-tech">Three.js • WebGL Shaders • Boids Simulation</text>
@@ -59,7 +59,7 @@
     <!-- Card 2: Love Galaxy -->
     <g transform="translate(1020, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/love_galaxy.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="love_galaxy.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">🌌 project-love-galaxy</text>
         <text x="40" y="490" class="project-tech">Pure JS • HTML5 Canvas Physics • Math Engines</text>
@@ -69,7 +69,7 @@
     <!-- Card 3: FPGA-ESP32 IoT Hub -->
     <g transform="translate(2040, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/fpga_esp32.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="fpga_esp32.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">🌐 FPGA-ESP32 IoT Hub</text>
         <text x="40" y="490" class="project-tech">Verilog • SPI Protocol • Firebase • Web Dashboard</text>
@@ -79,7 +79,7 @@
     <!-- Card 4: Knowledge OS -->
     <g transform="translate(3060, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/knowledge_os.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="knowledge_os.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">🧠 Knowledge OS</text>
         <text x="40" y="490" class="project-tech">React • D3.js Force Layout • Interactive Graph</text>
@@ -89,7 +89,7 @@
     <!-- Card 5: EcoCollect -->
     <g transform="translate(4080, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ecocollect.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="ecocollect.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">♻️ EcoCollect</text>
         <text x="40" y="490" class="project-tech">Flutter • Firebase Services • Smart Recycling</text>
@@ -100,7 +100,7 @@
     <!-- Card 1' -->
     <g transform="translate(5100, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ocean_love.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="ocean_love.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">🌊 Ocean Love</text>
         <text x="40" y="490" class="project-tech">Three.js • WebGL Shaders • Boids Simulation</text>
@@ -110,7 +110,7 @@
     <!-- Card 2' -->
     <g transform="translate(6120, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/love_galaxy.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="love_galaxy.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">🌌 project-love-galaxy</text>
         <text x="40" y="490" class="project-tech">Pure JS • HTML5 Canvas Physics • Math Engines</text>
@@ -120,7 +120,7 @@
     <!-- Card 3' -->
     <g transform="translate(7140, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/fpga_esp32.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="fpga_esp32.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">🌐 FPGA-ESP32 IoT Hub</text>
         <text x="40" y="490" class="project-tech">Verilog • SPI Protocol • Firebase • Web Dashboard</text>
@@ -130,7 +130,7 @@
     <!-- Card 4' -->
     <g transform="translate(8160, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/knowledge_os.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="knowledge_os.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">🧠 Knowledge OS</text>
         <text x="40" y="490" class="project-tech">React • D3.js Force Layout • Interactive Graph</text>
@@ -140,7 +140,7 @@
     <!-- Card 5' -->
     <g transform="translate(9180, 30)">
       <g clip-path="url(#card-clip)">
-        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ecocollect.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
+        <image href="ecocollect.png" width="960" height="540" preserveAspectRatio="xMidYMid slice" />
         <rect x="0" y="340" width="960" height="200" fill="url(#card-grad)" />
         <text x="40" y="445" class="project-title">♻️ EcoCollect</text>
         <text x="40" y="490" class="project-tech">Flutter • Firebase Services • Smart Recycling</text>
