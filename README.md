@@ -41,60 +41,19 @@
 <!--                    TECH STACK                         -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-<div align="center">
-
 ### ⚙️ Tech Arsenal
 
-<table>
-  <tr>
-    <td width="25%" align="left"><b>🔩 Hardware &amp; EDA</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Verilog_HDL-121212?style=flat-square" alt="Verilog" />
-      <img src="https://img.shields.io/badge/Intel_Quartus_II-0071C5?style=flat-square&amp;logo=intel&amp;logoColor=white" alt="Quartus" />
-      <img src="https://img.shields.io/badge/KiCad-314CB6?style=flat-square&amp;logo=kicad&amp;logoColor=white" alt="KiCad" />
-      <img src="https://img.shields.io/badge/STM32CubeMX-03234B?style=flat-square&amp;logo=stmicroelectronics&amp;logoColor=white" alt="STM32" />
-      <img src="https://img.shields.io/badge/Proteus-1C1C1C?style=flat-square" alt="Proteus" />
-      <img src="https://img.shields.io/badge/ANSYS_HFSS-FFB71B?style=flat-square&amp;logo=ansys&amp;logoColor=black" alt="HFSS" />
-    </td>
-  </tr>
-  <tr>
-    <td align="left"><b>💻 Languages &amp; Tech</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" alt="C/C++" />
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&amp;logo=javascript&amp;logoColor=black" alt="JS" />
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white" alt="TS" />
-      <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&amp;logo=dart&amp;logoColor=white" alt="Dart" />
-      <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&amp;logo=csharp&amp;logoColor=white" alt="C#" />
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=black" alt="React" />
-      <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&amp;logo=flutter&amp;logoColor=white" alt="Flutter" />
-      <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
-      <img src="https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&amp;logo=d3dotjs&amp;logoColor=white" alt="D3.js" />
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&amp;logo=html5&amp;logoColor=white" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&amp;logo=css3&amp;logoColor=white" alt="CSS3" />
-    </td>
-  </tr>
-  <tr>
-    <td align="left"><b>☁️ Cloud &amp; Tools</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&amp;logo=firebase&amp;logoColor=black" alt="Firebase" />
-      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="Vercel" />
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git" />
-      <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&amp;logo=latex&amp;logoColor=white" alt="LaTeX" />
-      <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&amp;logo=mysql&amp;logoColor=white" alt="SQL" />
-    </td>
-  </tr>
-  <tr>
-    <td align="left"><b>🎯 Target Platforms</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Cyclone_IV_GX-0071C5?style=flat-square&amp;logo=intel&amp;logoColor=white" alt="FPGA" />
-      <img src="https://img.shields.io/badge/STM32H7-03234B?style=flat-square&amp;logo=stmicroelectronics&amp;logoColor=white" alt="STM32H7" />
-      <img src="https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&amp;logo=espressif&amp;logoColor=white" alt="ESP32" />
-    </td>
-  </tr>
-</table>
-
-</div>
+```yaml
+# systemctl status tech-stack.service
+● tech-stack.service - Pham Van Minh's Engineering Capabilities
+   Loaded: active (running) since HUST '23
+   
+   Hardware & EDA   :: [Verilog HDL] [Intel Quartus II] [KiCad (High-speed PCB)] [ANSYS HFSS]
+   Languages        :: [C/C++] [Python] [Dart] [C#] [JavaScript] [TypeScript]
+   Frameworks       :: [React.js] [Flutter] [Node.js] [Three.js] [D3.js]
+   Infrastructure   :: [Git] [LaTeX] [Firebase] [Vercel] [SQL]
+   Target Platforms :: [Cyclone IV FPGA] [STM32H7 (Cortex-M7)] [ESP32-S3 (FreeRTOS)]
+```
 
 ---
 
