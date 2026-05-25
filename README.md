@@ -61,25 +61,21 @@
 
 > *From gate-level Verilog to full-stack cloud apps — each project represents a complete engineering journey.*
 
-#### 🔩 Hardware & Digital Design
+#### 🔩 Hardware & Digital Design ───────────────────────────────────────
 | Project | Key Stack | Description |
 | :--- | :--- | :--- |
-| [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) | `KiCad` `PDN` | Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 |
-| [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | `Verilog` `RGMII` | Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC |
-| [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) | `Verilog` `FSM` | SPI Master & SD Card init FSM in pure Verilog |
+| 🛠️ [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) | `KiCad` `PDN` | Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 |
+| 📷 [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | `Verilog` `RGMII` | Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC |
+| 💾 [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) | `Verilog` `FSM` | SPI Master & SD Card init FSM in pure Verilog |
+| 📡 [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | `Verilog` `WebSocket` `Firebase` | FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard |
 
-#### 💻 Software & Full-Stack
+#### 💻 Software & Full-Stack ──────────────────────────────────────────
 | Project | Key Stack | Description |
 | :--- | :--- | :--- |
-| [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | `React` `D3.js` | Futuristic graph-based Knowledge Hub with D3.js physics & Firebase |
-| [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) | `Flutter` `Firebase` | Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards |
-| [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) | `Three.js` `WebGL` | Premium interactive 3D ocean simulation with custom shaders & Boids |
-
-#### 🔌 Bridging Hardware ↔ Software
-| Project | Key Stack | Description |
-| :--- | :--- | :--- |
-| [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | `Verilog` `WebSocket` `Firebase` | FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard |
-| [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) | `JS` `Canvas` `Math` | Immersive digital universe with 6000+ lines of pure JS & Canvas physics |
+| 🧠 [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | `React` `D3.js` | Futuristic graph-based Knowledge Hub with D3.js physics & Firebase |
+| ♻️ [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) | `Flutter` `Firebase` | Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards |
+| 🌊 [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) | `Three.js` `WebGL` | Premium interactive 3D ocean simulation with custom shaders & Boids |
+| 🌌 [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) | `JS` `Canvas` `Math` | Immersive digital universe with 6000+ lines of pure JS & Canvas physics |
 
 ---
 
