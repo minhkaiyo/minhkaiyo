@@ -1,90 +1,154 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200">
   <defs>
-    <!-- Bo góc cho toàn bộ khung hình -->
-    <clipPath id="rect-clip">
-      <rect x="0" y="0" width="800" height="450" rx="12" ry="12" />
+    <!-- ClipPath để bo góc cho từng card ảnh -->
+    <clipPath id="card-clip">
+      <rect x="0" y="0" width="320" height="180" rx="16" ry="16" />
     </clipPath>
-    <!-- Phủ bóng tối ở cạnh dưới để làm nổi bật Text -->
-    <linearGradient id="text-overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+    <!-- Gradient phủ mờ nhẹ ở đáy card để làm nổi bật text -->
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#0D1117" stop-opacity="0" />
-      <stop offset="60%" stop-color="#0D1117" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0.85" />
     </linearGradient>
   </defs>
 
   <style>
-    .slide {
-      opacity: 0;
-      animation: carousel 25s infinite ease-in-out;
+    .marquee-track {
+      display: flex;
+      /* Animation dịch chuyển ngang vô tận */
+      animation: marquee 30s linear infinite;
     }
-    /* Mỗi slide delay nhau đúng 5 giây */
-    .slide:nth-child(1) { animation-delay: 0s; }
-    .slide:nth-child(2) { animation-delay: 5s; }
-    .slide:nth-child(3) { animation-delay: 10s; }
-    .slide:nth-child(4) { animation-delay: 15s; }
-    .slide:nth-child(5) { animation-delay: 20s; }
 
-    @keyframes carousel {
-      0%, 100% { opacity: 0; }
-      2%, 16% { opacity: 1; }  /* Hiện rõ trong khoảng ~3.5 giây */
-      18%, 98% { opacity: 0; } /* Fade out và ẩn đi */
+    /* Di chuyển đúng 1700px (chiều rộng của 5 cards kèm khoảng cách) rồi reset */
+    @keyframes marquee {
+      0% {
+        transform: translateX(0px);
+      }
+      100% {
+        transform: translateX(-1700px);
+      }
+    }
+
+    .project-card {
+      transition: transform 0.2s ease;
     }
 
     .project-title {
       font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 22px;
+      font-size: 14px;
       font-weight: 700;
       fill: #FFFFFF;
     }
 
     .project-tech {
       font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 14px;
+      font-size: 10px;
       font-weight: 600;
       fill: #06B6D4;
     }
   </style>
 
-  <!-- Group chứa tất cả các slides -->
-  <g clip-path="url(#rect-clip)">
-    <!-- SLIDE 1: Ocean Love -->
-    <g class="slide">
-      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ocean_love.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
-      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
-      <text x="30" y="405" class="project-title">🌊 Ocean Love</text>
-      <text x="30" y="425" class="project-tech">Three.js • WebGL Shaders • Boids Simulation</text>
+  <!-- Track chứa dải băng chuyền ảnh -->
+  <g class="marquee-track">
+    <!-- ==================== CHU KỲ CHÍNH (5 CARDS) ==================== -->
+    <!-- Card 1: Ocean Love -->
+    <g class="project-card" transform="translate(0, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ocean_love.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">🌊 Ocean Love</text>
+        <text x="15" y="162" class="project-tech">Three.js • WebGL • Boids</text>
+      </g>
     </g>
 
-    <!-- SLIDE 2: Love Galaxy -->
-    <g class="slide">
-      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/love_galaxy.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
-      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
-      <text x="30" y="405" class="project-title">🌌 project-love-galaxy</text>
-      <text x="30" y="425" class="project-tech">Pure JS • HTML5 Canvas Physics • Math Engines</text>
+    <!-- Card 2: Love Galaxy -->
+    <g class="project-card" transform="translate(340, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/love_galaxy.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">🌌 project-love-galaxy</text>
+        <text x="15" y="162" class="project-tech">JS • HTML5 Canvas Physics</text>
+      </g>
     </g>
 
-    <!-- SLIDE 3: FPGA-ESP32 IoT Hub -->
-    <g class="slide">
-      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/fpga_esp32.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
-      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
-      <text x="30" y="405" class="project-title">🌐 FPGA-ESP32 IoT Hub</text>
-      <text x="30" y="425" class="project-tech">Verilog • SPI Protocol • Firebase • WebSocket Dashboard</text>
+    <!-- Card 3: FPGA-ESP32 IoT Hub -->
+    <g class="project-card" transform="translate(680, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/fpga_esp32.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">🌐 FPGA-ESP32 IoT Hub</text>
+        <text x="15" y="162" class="project-tech">Verilog • SPI • Firebase</text>
+      </g>
     </g>
 
-    <!-- SLIDE 4: Knowledge OS -->
-    <g class="slide">
-      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/knowledge_os.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
-      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
-      <text x="30" y="405" class="project-title">🧠 Knowledge OS</text>
-      <text x="30" y="425" class="project-tech">React • D3.js Force Layout • Interactive Graph database</text>
+    <!-- Card 4: Knowledge OS -->
+    <g class="project-card" transform="translate(1020, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/knowledge_os.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">🧠 Knowledge OS</text>
+        <text x="15" y="162" class="project-tech">React • D3.js Force Layout</text>
+      </g>
     </g>
 
-    <!-- SLIDE 5: EcoCollect -->
-    <g class="slide">
-      <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ecocollect.png" width="800" height="450" preserveAspectRatio="xMidYMid slice" />
-      <rect x="0" y="320" width="800" height="130" fill="url(#text-overlay)" />
-      <text x="30" y="405" class="project-title">♻️ EcoCollect</text>
-      <text x="30" y="425" class="project-tech">Flutter • Firebase Services • Smart Recycling Ecosystem</text>
+    <!-- Card 5: EcoCollect -->
+    <g class="project-card" transform="translate(1360, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ecocollect.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">♻️ EcoCollect</text>
+        <text x="15" y="162" class="project-tech">Flutter • Firebase Ecosystem</text>
+      </g>
+    </g>
+
+    <!-- ==================== CHU KỲ LẶP LẠI (SAO CHÉP ĐỂ SEAMLESS SCROLL) ==================== -->
+    <!-- Card 1' -->
+    <g class="project-card" transform="translate(1700, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ocean_love.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">🌊 Ocean Love</text>
+        <text x="15" y="162" class="project-tech">Three.js • WebGL • Boids</text>
+      </g>
+    </g>
+
+    <!-- Card 2' -->
+    <g class="project-card" transform="translate(2040, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/love_galaxy.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">🌌 project-love-galaxy</text>
+        <text x="15" y="162" class="project-tech">JS • HTML5 Canvas Physics</text>
+      </g>
+    </g>
+
+    <!-- Card 3' -->
+    <g class="project-card" transform="translate(2380, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/fpga_esp32.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">🌐 FPGA-ESP32 IoT Hub</text>
+        <text x="15" y="162" class="project-tech">Verilog • SPI • Firebase</text>
+      </g>
+    </g>
+
+    <!-- Card 4' -->
+    <g class="project-card" transform="translate(2720, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/knowledge_os.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">🧠 Knowledge OS</text>
+        <text x="15" y="162" class="project-tech">React • D3.js Force Layout</text>
+      </g>
+    </g>
+
+    <!-- Card 5' -->
+    <g class="project-card" transform="translate(3060, 10)">
+      <g clip-path="url(#card-clip)">
+        <image href="https://raw.githubusercontent.com/minhkaiyo/minhkaiyo/main/docs/media/ecocollect.png" width="320" height="180" preserveAspectRatio="xMidYMid slice" />
+        <rect x="0" y="110" width="320" height="70" fill="url(#card-grad)" />
+        <text x="15" y="145" class="project-title">♻️ EcoCollect</text>
+        <text x="15" y="162" class="project-tech">Flutter • Firebase Ecosystem</text>
+      </g>
     </g>
   </g>
 </svg>
