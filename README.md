@@ -31,7 +31,8 @@
 
 <div align="center">
   <h3>✨ Featured Project Showcases</h3>
-  <img src="docs/media/project_carousel.gif" width="100%" alt="Featured Projects Carousel" />
+  <img src="docs/media/project_carousel_top.gif" width="100%" alt="Featured Projects Top Carousel" />
+  <img src="docs/media/project_carousel_bottom.gif" width="100%" alt="Featured Projects Bottom Carousel" />
 </div>
 
 ---
