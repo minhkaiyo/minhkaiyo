@@ -61,21 +61,21 @@
 
 > *From gate-level Verilog to full-stack cloud apps — each project represents a complete engineering journey.*
 
-#### 🔩 Hardware & Digital Design ───────────────────────────────────────
+#### <img src="https://api.iconify.design/lucide/cpu.svg?color=%2306B6D4" height="18" align="center" /> Hardware & Digital Design ───────────────────────────────────────
 | Project | Key Stack | Description |
 | :--- | :--- | :--- |
-| 🛠️ [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) | `KiCad` `PDN` | Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 |
-| 📷 [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | `Verilog` `RGMII` | Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC |
-| 💾 [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) | `Verilog` `FSM` | SPI Master & SD Card init FSM in pure Verilog |
-| 📡 [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | `Verilog` `WebSocket` `Firebase` | FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard |
+| <img src="https://api.iconify.design/lucide/circuit-board.svg?color=%2306B6D4" height="16" align="center" /> [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) | `KiCad` `PDN` | Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 |
+| <img src="https://api.iconify.design/lucide/camera.svg?color=%2306B6D4" height="16" align="center" /> [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | `Verilog` `RGMII` | Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC |
+| <img src="https://api.iconify.design/lucide/hard-drive.svg?color=%2306B6D4" height="16" align="center" /> [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) | `Verilog` `FSM` | SPI Master & SD Card init FSM in pure Verilog |
+| <img src="https://api.iconify.design/lucide/router.svg?color=%2306B6D4" height="16" align="center" /> [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | `Verilog` `WebSocket` `Firebase` | FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard |
 
-#### 💻 Software & Full-Stack ──────────────────────────────────────────
+#### <img src="https://api.iconify.design/lucide/code-2.svg?color=%2306B6D4" height="18" align="center" /> Software & Full-Stack ──────────────────────────────────────────
 | Project | Key Stack | Description |
 | :--- | :--- | :--- |
-| 🧠 [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | `React` `D3.js` | Futuristic graph-based Knowledge Hub with D3.js physics & Firebase |
-| ♻️ [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) | `Flutter` `Firebase` | Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards |
-| 🌊 [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) | `Three.js` `WebGL` | Premium interactive 3D ocean simulation with custom shaders & Boids |
-| 🌌 [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) | `JS` `Canvas` `Math` | Immersive digital universe with 6000+ lines of pure JS & Canvas physics |
+| <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%2306B6D4" height="16" align="center" /> [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | `React` `D3.js` | Futuristic graph-based Knowledge Hub with D3.js physics & Firebase |
+| <img src="https://api.iconify.design/lucide/recycle.svg?color=%2306B6D4" height="16" align="center" /> [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) | `Flutter` `Firebase` | Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards |
+| <img src="https://api.iconify.design/lucide/waves.svg?color=%2306B6D4" height="16" align="center" /> [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) | `Three.js` `WebGL` | Premium interactive 3D ocean simulation with custom shaders & Boids |
+| <img src="https://api.iconify.design/lucide/orbit.svg?color=%2306B6D4" height="16" align="center" /> [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) | `JS` `Canvas` `Math` | Immersive digital universe with 6000+ lines of pure JS & Canvas physics |
 
 ---
 
