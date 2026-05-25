@@ -110,14 +110,7 @@
 ### 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=minhkaiyo&show_icons=true&theme=tokyonight&hide_border=true&title_color=06B6D4&icon_color=06B6D4&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhkaiyo&theme=tokyonight&hide_border=true&stroke=0000&ring=06B6D4&fire=06B6D4&currStreakLabel=06B6D4&background=0d1117" alt="GitHub Streak" width="48%" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhkaiyo&layout=compact&theme=tokyonight&hide_border=true&title_color=06B6D4&text_color=c9d1d9&bg_color=0d1117&langs_count=10" alt="Top Languages" width="40%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhkaiyo&theme=tokyonight&hide_border=true&stroke=0000&ring=06B6D4&fire=06B6D4&currStreakLabel=06B6D4&background=0d1117" alt="GitHub Streak" width="60%" />
 </div>
 
 <br>
