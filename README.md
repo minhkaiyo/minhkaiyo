@@ -133,6 +133,7 @@
 |:--------|:-----|
 | [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) — Futuristic graph-based Knowledge Hub with D3.js physics & Firebase | `React` `D3.js` |
 | [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) — Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards | `Flutter` `Firebase` |
+| [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) — Premium interactive 3D ocean simulation with custom shaders & Boids simulation | `Three.js` `WebGL` |
 
 </td>
 </tr>
