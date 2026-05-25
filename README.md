@@ -30,7 +30,7 @@
 <!-- ══════════════════════════════════════════════════════ -->
 
 <div align="center">
-  <h3>✨ Featured Project Showcases</h3>
+  <h3><img src="https://api.iconify.design/lucide/sparkles.svg?color=%2306B6D4" height="20" align="center" /> Featured Project Showcases</h3>
   <img src="docs/media/project_carousel_top.gif" width="100%" alt="Featured Projects Top Carousel" />
   <img src="docs/media/project_carousel_bottom.gif" width="100%" alt="Featured Projects Bottom Carousel" />
 </div>
@@ -41,15 +41,15 @@
 <!--                    TECH STACK                         -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-### ⚙️ Tech Arsenal
+### <img src="https://api.iconify.design/lucide/settings.svg?color=%2306B6D4" height="20" align="center" /> Tech Arsenal
 
 | Field | Technologies & Tools |
 | :--- | :--- |
-| **🔩 Hardware & EDA** | ![](https://img.shields.io/badge/Verilog_HDL-121212?style=flat-square) ![](https://img.shields.io/badge/Intel_Quartus_II-0071C5?style=flat-square&logo=intel&logoColor=white) ![](https://img.shields.io/badge/KiCad-314CB6?style=flat-square&logo=kicad&logoColor=white) ![](https://img.shields.io/badge/ANSYS_HFSS-FFB71B?style=flat-square&logo=ansys&logoColor=black) |
-| **💻 Languages** | ![](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| **🚀 Frameworks** | ![](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white) |
-| **☁️ Infrastructure** | ![](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white) ![](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
-| **🎯 Target Platforms** | ![](https://img.shields.io/badge/Cyclone_IV_GX-0071C5?style=flat-square&logo=intel&logoColor=white) ![](https://img.shields.io/badge/STM32H7-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) ![](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white) |
+| **<img src="https://api.iconify.design/lucide/cpu.svg?color=%2306B6D4" height="16" align="center" /> Hardware & EDA** | ![](https://img.shields.io/badge/Verilog_HDL-121212?style=flat-square) ![](https://img.shields.io/badge/Intel_Quartus_II-0071C5?style=flat-square&logo=intel&logoColor=white) ![](https://img.shields.io/badge/KiCad-314CB6?style=flat-square&logo=kicad&logoColor=white) ![](https://img.shields.io/badge/ANSYS_HFSS-FFB71B?style=flat-square&logo=ansys&logoColor=black) |
+| **<img src="https://api.iconify.design/lucide/code-2.svg?color=%2306B6D4" height="16" align="center" /> Languages** | ![](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **<img src="https://api.iconify.design/lucide/layers.svg?color=%2306B6D4" height="16" align="center" /> Frameworks** | ![](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white) |
+| **<img src="https://api.iconify.design/lucide/cloud.svg?color=%2306B6D4" height="16" align="center" /> Infrastructure** | ![](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white) ![](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **<img src="https://api.iconify.design/lucide/target.svg?color=%2306B6D4" height="16" align="center" /> Target Platforms** | ![](https://img.shields.io/badge/Cyclone_IV_GX-0071C5?style=flat-square&logo=intel&logoColor=white) ![](https://img.shields.io/badge/STM32H7-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) ![](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white) |
 
 ---
 
@@ -57,7 +57,7 @@
 <!--                 FEATURED PROJECTS                     -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-### 🚀 Featured Projects
+### <img src="https://api.iconify.design/lucide/rocket.svg?color=%2306B6D4" height="20" align="center" /> Featured Projects
 
 > *From gate-level Verilog to full-stack cloud apps — each project represents a complete engineering journey.*
 
@@ -83,7 +83,7 @@
 <!--                  GITHUB ANALYTICS                     -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-### 📊 GitHub Analytics
+### <img src="https://api.iconify.design/lucide/bar-chart-3.svg?color=%2306B6D4" height="20" align="center" /> GitHub Analytics
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhkaiyo&theme=tokyonight&hide_border=true&stroke=0000&ring=06B6D4&fire=06B6D4&currStreakLabel=06B6D4&background=0d1117" alt="GitHub Streak" width="60%" />
