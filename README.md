@@ -29,28 +29,11 @@
 <!--              DUAL IDENTITY: PCB × HACKER              -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🔩 `> cat /sys/hardware/identity.v`
-
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=500&color=06B6D4&background=0D111700&vCenter=true&width=450&height=250&multiline=true&lines=%3E+Initializing+Hardware+Build...;%3E+Loading+Verilog+Modules...;%3E+fpga_core+FPGA(.clk(sys_clk));%3E+stm32_mcu+MCU(.bus(data));%3E+Synthesizing+Logic+Gates...;%3E+Routing+Multi-layer+PCB...;%3E+Checking+Signal+Integrity...+%5BOK%5D;%3E+Checking+PDN+Impedance......+%5BOK%5D;%3E+Status:+HARDWARE_READY" alt="Hardware Typing Animation" />
+  <h3><img src="https://api.iconify.design/lucide/sparkles.svg?color=%2306B6D4" height="20" align="center" /> Featured Project Showcases</h3>
+  <img src="docs/media/project_carousel_top.gif" width="100%" alt="Featured Projects Top Carousel" />
+  <img src="docs/media/project_carousel_bottom.gif" width="100%" alt="Featured Projects Bottom Carousel" />
 </div>
-
-</td>
-<td width="50%" valign="top">
-
-### 💻 `> ./deploy --full-stack`
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=14&pause=500&color=58a6ff&background=0D111700&vCenter=true&width=450&height=250&multiline=true&lines=%3E+Initializing+Software+Stack...;%3E+Loading+Firmware:+C%2FC%2B%2B,+FreeRTOS;%3E+Loading+Frontend:+React,+Flutter;%3E+Loading+Backend:+Node.js,+Firebase;%3E+Compiling+Cross-platform+App...;%3E+Bridging+Silicon+and+Cloud...;%3E+Establishing+WebSocket+Link...;%3E+Connecting+to+Database...+%5BOK%5D;%3E+Status:+SOFTWARE_ONLINE" alt="Software Typing Animation" />
-</div>
-
-</td>
-</tr>
-</table>
 
 ---
 
@@ -58,49 +41,15 @@
 <!--                    TECH STACK                         -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-<div align="center">
+### <img src="https://api.iconify.design/lucide/settings.svg?color=%2306B6D4" height="20" align="center" /> Tech Arsenal
 
-### ⚙️ Tech Arsenal
-
-**`HARDWARE & EDA`**
-
-<img src="https://img.shields.io/badge/Verilog_HDL-121212?style=for-the-badge" alt="Verilog" />
-<img src="https://img.shields.io/badge/Intel_Quartus_II-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="Quartus" />
-<img src="https://img.shields.io/badge/KiCad-314CB6?style=for-the-badge&logo=kicad&logoColor=white" alt="KiCad" />
-<img src="https://img.shields.io/badge/STM32CubeMX-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32" />
-<img src="https://img.shields.io/badge/Proteus-1C1C1C?style=for-the-badge" alt="Proteus" />
-<img src="https://img.shields.io/badge/ANSYS_HFSS-FFB71B?style=for-the-badge&logo=ansys&logoColor=black" alt="HFSS" />
-
-**`LANGUAGES & FRAMEWORKS`**
-
-<img src="https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C/C++" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TS" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
-<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white" alt="D3.js" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-
-**`CLOUD & TOOLS`**
-
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" />
-<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white" alt="LaTeX" />
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL" />
-
-**`TARGET PLATFORMS`**
-
-<img src="https://img.shields.io/badge/Cyclone_IV_GX_(DE2i--150)-0071C5?style=for-the-badge&logo=intel&logoColor=white" alt="FPGA" />
-<img src="https://img.shields.io/badge/STM32H7_Cortex--M7-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32H7" />
-<img src="https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32" />
-
-</div>
+| Field | Technologies & Tools |
+| :--- | :--- |
+| **<img src="https://api.iconify.design/lucide/cpu.svg?color=%2306B6D4" height="16" align="center" /> Hardware & EDA** | ![](https://img.shields.io/badge/Verilog_HDL-121212?style=flat-square) ![](https://img.shields.io/badge/Intel_Quartus_II-0071C5?style=flat-square&logo=intel&logoColor=white) ![](https://img.shields.io/badge/KiCad-314CB6?style=flat-square&logo=kicad&logoColor=white) ![](https://img.shields.io/badge/ANSYS_HFSS-FFB71B?style=flat-square&logo=ansys&logoColor=black) |
+| **<img src="https://api.iconify.design/lucide/code-2.svg?color=%2306B6D4" height="16" align="center" /> Languages** | ![](https://img.shields.io/badge/C%2FC%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=csharp&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| **<img src="https://api.iconify.design/lucide/layers.svg?color=%2306B6D4" height="16" align="center" /> Frameworks** | ![](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white) ![](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3dotjs&logoColor=white) |
+| **<img src="https://api.iconify.design/lucide/cloud.svg?color=%2306B6D4" height="16" align="center" /> Infrastructure** | ![](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white) ![](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) |
+| **<img src="https://api.iconify.design/lucide/target.svg?color=%2306B6D4" height="16" align="center" /> Target Platforms** | ![](https://img.shields.io/badge/Cyclone_IV_GX-0071C5?style=flat-square&logo=intel&logoColor=white) ![](https://img.shields.io/badge/STM32H7-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white) ![](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white) |
 
 ---
 
@@ -108,47 +57,26 @@
 <!--                 FEATURED PROJECTS                     -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-### 🚀 Featured Projects
+### <img src="https://api.iconify.design/lucide/rocket.svg?color=%2306B6D4" height="20" align="center" /> Featured Projects
 
 > *From gate-level Verilog to full-stack cloud apps — each project represents a complete engineering journey.*
 
-<table>
-<tr>
-<td width="50%" valign="top">
+#### <img src="https://api.iconify.design/lucide/cpu.svg?color=%2306B6D4" height="18" align="center" /> Hardware & Digital Design ───────────────────────────────────────
+| Project | Key Stack | Description |
+| :--- | :--- | :--- |
+| <img src="https://api.iconify.design/lucide/circuit-board.svg?color=%2306B6D4" height="16" align="center" /> [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) | `KiCad` `PDN` | Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 |
+| <img src="https://api.iconify.design/lucide/camera.svg?color=%2306B6D4" height="16" align="center" /> [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) | `Verilog` `RGMII` | Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC |
+| <img src="https://api.iconify.design/lucide/hard-drive.svg?color=%2306B6D4" height="16" align="center" /> [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) | `Verilog` `FSM` | SPI Master & SD Card init FSM in pure Verilog |
+| <img src="https://api.iconify.design/lucide/router.svg?color=%2306B6D4" height="16" align="center" /> [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) | `Verilog` `WebSocket` `Firebase` | FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard |
+| <img src="https://api.iconify.design/lucide/tv.svg?color=%2306B6D4" height="16" align="center" /> [**Ethernet VGA Pipeline**](https://github.com/minhkaiyo/FPGA_Ethernet_VGA_Pipeline_100Mbps) | `Verilog` `MII` | Real-time 100Mbps video streaming from PC to VGA |
 
-#### 🔩 Hardware & Digital Design
-
-| Project | Tech |
-|:--------|:-----|
-| [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) — Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 | `KiCad` `PDN` |
-| [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) — Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC | `Verilog` `RGMII` |
-| [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) — SPI Master & SD Card init FSM in pure Verilog | `Verilog` `FSM` |
-| [**Ethernet VGA Pipeline**](https://github.com/minhkaiyo/FPGA_Ethernet_VGA_Pipeline_100Mbps) — Real-time 100Mbps video streaming from PC to VGA | `Verilog` `MII` |
-
-
-</td>
-<td width="50%" valign="top">
-
-#### 💻 Software & Full-Stack
-
-| Project | Tech |
-|:--------|:-----|
-| [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) — Futuristic graph-based Knowledge Hub with D3.js physics & Firebase | `React` `D3.js` |
-| [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) — Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards | `Flutter` `Firebase` |
-| [**Texify**](https://github.com/minhkaiyo/latex-ai-generator) — AI-powered LaTeX generator with self-healing PDF compiler | `Node.js` `AI` |
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-| Bridging Hardware ↔ Software | Tech |
-|:--------|:-----|
-| [**FPGA-ESP32 IoT Hub**](https://github.com/minhkaiyo/FPGA-ESP32-IoT-Hub) — End-to-end IoT: FPGA ↔ ESP32 (SPI) ↔ Firebase ↔ Real-time Web Dashboard | `Verilog` `WebSocket` `Firebase` |
-| [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) — Immersive digital universe with 6000+ lines of pure JS & HTML5 Canvas physics | `JS` `Canvas` `Math` |
-
-</div>
+#### <img src="https://api.iconify.design/lucide/code-2.svg?color=%2306B6D4" height="18" align="center" /> Software & Full-Stack ──────────────────────────────────────────
+| Project | Key Stack | Description |
+| :--- | :--- | :--- |
+| <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%2306B6D4" height="16" align="center" /> [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | `React` `D3.js` | Futuristic graph-based Knowledge Hub with D3.js physics & Firebase |
+| <img src="https://api.iconify.design/lucide/recycle.svg?color=%2306B6D4" height="16" align="center" /> [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) | `Flutter` `Firebase` | Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards |
+| <img src="https://api.iconify.design/lucide/waves.svg?color=%2306B6D4" height="16" align="center" /> [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) | `Three.js` `WebGL` | Premium interactive 3D ocean simulation with custom shaders & Boids |
+| <img src="https://api.iconify.design/lucide/orbit.svg?color=%2306B6D4" height="16" align="center" /> [**Love Galaxy**](https://github.com/minhkaiyo/project-love-galaxy) | `JS` `Canvas` `Math` | Immersive digital universe with 6000+ lines of pure JS & Canvas physics |
 
 ---
 
@@ -156,24 +84,14 @@
 <!--                  GITHUB ANALYTICS                     -->
 <!-- ══════════════════════════════════════════════════════ -->
 
-### 📊 GitHub Analytics
+### <img src="https://api.iconify.design/lucide/bar-chart-3.svg?color=%2306B6D4" height="20" align="center" /> GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=minhkaiyo&show_icons=true&theme=tokyonight&hide_border=true&title_color=06B6D4&icon_color=06B6D4&text_color=c9d1d9&bg_color=0d1117" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhkaiyo&theme=tokyonight&hide_border=true&stroke=0000&ring=06B6D4&fire=06B6D4&currStreakLabel=06B6D4&background=0d1117" alt="GitHub Streak" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=minhkaiyo&theme=tokyonight&hide_border=true&stroke=0000&ring=06B6D4&fire=06B6D4&currStreakLabel=06B6D4&background=0d1117" alt="GitHub Streak" width="60%" />
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=minhkaiyo&layout=compact&theme=tokyonight&hide_border=true&title_color=06B6D4&text_color=c9d1d9&bg_color=0d1117&langs_count=10" alt="Top Languages" width="40%" />
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=minhkaiyo&bg_color=0d1117&color=06B6D4&line=06B6D4&point=58a6ff&area_color=06B6D4&area=true&hide_border=true&disable_animations=true" alt="Activity Graph" width="95%" />
-</div>
 
 ---
 
