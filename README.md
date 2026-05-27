@@ -19,7 +19,7 @@
 
 <br>
 
-<a href="https://github.com/minhkaiyo/minhkaiyo/blob/main/docs/cv_pham_van_minh_vi.pdf">
+<a href="https://github.com/minhkaiyo/minhkaiyo/blob/main/docs/CV_MINHPHAM.pdf">
   <img src="https://img.shields.io/badge/📄_DOWNLOAD_MY_CV-06B6D4?style=for-the-badge&logoColor=white" alt="View CV" height="38"/>
 </a>
 
@@ -123,6 +123,8 @@
 | [**Custom FPGA-MCU Board**](https://github.com/minhkaiyo/Custom-FPGA-MCU-System-Board) — Multi-layer high-speed PCB with Cyclone IV GX + STM32H7 | `KiCad` `PDN` |
 | [**Gigabit Ethernet Camera**](https://github.com/minhkaiyo/FPGA-Gigabit-Ethernet-Camera-Streaming) — Real-time pipeline: Camera → FPGA → SDRAM → GbE → PC | `Verilog` `RGMII` |
 | [**SD Card Controller**](https://github.com/minhkaiyo/FPGA-SD-Card-Controller) — SPI Master & SD Card init FSM in pure Verilog | `Verilog` `FSM` |
+| [**Ethernet VGA Pipeline**](https://github.com/minhkaiyo/FPGA_Ethernet_VGA_Pipeline_100Mbps) — Real-time 100Mbps video streaming from PC to VGA | `Verilog` `MII` |
+
 
 </td>
 <td width="50%" valign="top">
