@@ -73,7 +73,7 @@
 #### <img src="https://api.iconify.design/lucide/code-2.svg?color=%2306B6D4" height="18" align="center" /> Software & Full-Stack ──────────────────────────────────────────
 | Project | Key Stack | Description |
 | :--- | :--- | :--- |
-| <img src="https://api.iconify.design/lucide/bot.svg?color=%2306B6D4" height="16" align="center" /> [**CVision AI**](https://github.com/minhkaiyo/CV_pro) | `Next.js` `FastAPI` `Gemini` | SaaS Platform for Smart Resume Analysis, ATS Scoring & Real-time Career Advisor |
+| <img src="https://api.iconify.design/lucide/bot.svg?color=%2306B6D4" height="16" align="center" /> [**CVision AI**](https://github.com/minhkaiyo/CVision-AI) | `Next.js` `FastAPI` `Gemini` | SaaS Platform for Smart Resume Analysis, ATS Scoring & Real-time Career Advisor |
 | <img src="https://api.iconify.design/lucide/brain-circuit.svg?color=%2306B6D4" height="16" align="center" /> [**Knowledge OS**](https://github.com/minhkaiyo/knowledge-os) | `React` `D3.js` | Futuristic graph-based Knowledge Hub with D3.js physics & Firebase |
 | <img src="https://api.iconify.design/lucide/recycle.svg?color=%2306B6D4" height="16" align="center" /> [**EcoCollect**](https://github.com/minhkaiyo/ecocollect_mobile) | `Flutter` `Firebase` | Smart Recycling ecosystem: radar map, AI scan, Eco-Points rewards |
 | <img src="https://api.iconify.design/lucide/waves.svg?color=%2306B6D4" height="16" align="center" /> [**Ocean Love**](https://github.com/minhkaiyo/Ocean-Love) | `Three.js` `WebGL` | Premium interactive 3D ocean simulation with custom shaders & Boids |
